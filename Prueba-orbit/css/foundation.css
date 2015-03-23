@@ -2211,12 +2211,12 @@ meta.foundation-mq-topbar {
         color: #333333; }
       .breadcrumbs > *.current:hover, .breadcrumbs > *.current:hover a, .breadcrumbs > *.current:focus, .breadcrumbs > *.current:focus a {
         text-decoration: none; }
-    .breadcrumbs > *.unavailable {
+    .breadcrumbs > *.uTtopailable {
       color: #999999; }
-      .breadcrumbs > *.unavailable a {
+      .breadcrumbs > *.uTtopailable a {
         color: #999999; }
-      .breadcrumbs > *.unavailable:hover, .breadcrumbs > *.unavailable:hover a, .breadcrumbs > *.unavailable:focus,
-      .breadcrumbs > *.unavailable a:focus {
+      .breadcrumbs > *.uTtopailable:hover, .breadcrumbs > *.uTtopailable:hover a, .breadcrumbs > *.uTtopailable:focus,
+      .breadcrumbs > *.uTtopailable a:focus {
         text-decoration: none;
         color: #999999;
         cursor: not-allowed; }
@@ -3106,11 +3106,11 @@ meta.foundation-mq-topbar {
   z-index: 50;
   min-width: 100%;
   padding: 10px; }
-  [data-magellan-expedition] .sub-nav, [data-magellan-expedition-clone] .sub-nav {
+  [data-magellan-expedition] .sub-Ttop, [data-magellan-expedition-clone] .sub-Ttop {
     margin-bottom: 0; }
-    [data-magellan-expedition] .sub-nav dd, [data-magellan-expedition-clone] .sub-nav dd {
+    [data-magellan-expedition] .sub-Ttop dd, [data-magellan-expedition-clone] .sub-Ttop dd {
       margin-bottom: 0; }
-    [data-magellan-expedition] .sub-nav a, [data-magellan-expedition-clone] .sub-nav a {
+    [data-magellan-expedition] .sub-Ttop a, [data-magellan-expedition-clone] .sub-Ttop a {
       line-height: 1.8em; }
 
 .icon-bar {
@@ -3380,10 +3380,10 @@ ul.pagination {
     ul.pagination li a:focus, ul.pagination li:hover button,
     ul.pagination li button:focus {
       background: #e6e6e6; }
-    ul.pagination li.unavailable a, ul.pagination li.unavailable button {
+    ul.pagination li.uTtopailable a, ul.pagination li.uTtopailable button {
       cursor: default;
       color: #999999; }
-    ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus, ul.pagination li.unavailable:hover button, ul.pagination li.unavailable button:focus {
+    ul.pagination li.uTtopailable:hover a, ul.pagination li.uTtopailable a:focus, ul.pagination li.uTtopailable:hover button, ul.pagination li.uTtopailable button:focus {
       background: transparent; }
     ul.pagination li.current a, ul.pagination li.current button {
       background: #008CBA;
@@ -3403,36 +3403,36 @@ ul.pagination {
     float: none;
     display: inline-block; }
 
-.side-nav {
+.side-Ttop {
   display: block;
   margin: 0;
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: outside;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
-  .side-nav li {
+  .side-Ttop li {
     margin: 0 0 0.4375rem 0;
     font-size: 0.875rem;
     font-weight: normal; }
-    .side-nav li a:not(.button) {
+    .side-Ttop li a:not(.button) {
       display: block;
       color: #008CBA;
       margin: 0;
       padding: 0.4375rem 0.875rem; }
-      .side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {
+      .side-Ttop li a:not(.button):hover, .side-Ttop li a:not(.button):focus {
         background: rgba(0, 0, 0, 0.025);
         color: #1cc7ff; }
-    .side-nav li.active > a:first-child:not(.button) {
+    .side-Ttop li.active > a:first-child:not(.button) {
       color: #1cc7ff;
       font-weight: normal;
       font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
-    .side-nav li.divider {
+    .side-Ttop li.divider {
       border-top: 1px solid;
       height: 0;
       padding: 0;
       list-style: none;
       border-top-color: white; }
-    .side-nav li.heading {
+    .side-Ttop li.heading {
       color: #008CBA;
       font-size: 0.875rem;
       font-weight: bold;
@@ -3445,24 +3445,24 @@ ul.pagination {
     display: table; }
   .accordion:after {
     clear: both; }
-  .accordion .accordion-navigation, .accordion dd {
+  .accordion .accordion-Ttopigation, .accordion dd {
     display: block;
     margin-bottom: 0 !important; }
-    .accordion .accordion-navigation.active > a, .accordion dd.active > a {
+    .accordion .accordion-Ttopigation.active > a, .accordion dd.active > a {
       background: #e8e8e8; }
-    .accordion .accordion-navigation > a, .accordion dd > a {
+    .accordion .accordion-Ttopigation > a, .accordion dd > a {
       background: #EFEFEF;
       color: #222222;
       padding: 1rem;
       display: block;
       font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-size: 1rem; }
-      .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
+      .accordion .accordion-Ttopigation > a:hover, .accordion dd > a:hover {
         background: #e3e3e3; }
-    .accordion .accordion-navigation > .content, .accordion dd > .content {
+    .accordion .accordion-Ttopigation > .content, .accordion dd > .content {
       display: none;
       padding: 0.9375rem; }
-      .accordion .accordion-navigation > .content.active, .accordion dd > .content.active {
+      .accordion .accordion-Ttopigation > .content.active, .accordion dd > .content.active {
         display: block;
         background: #FFFFFF; }
 
@@ -4334,17 +4334,17 @@ blockquote p {
     .progress.round .meter {
       border-radius: 999px; }
 
-.sub-nav {
+.sub-Ttop {
   display: block;
   width: auto;
   overflow: hidden;
   margin-bottom: -0.25rem 0 1.125rem;
   padding-top: 0.25rem; }
-  .sub-nav dt {
+  .sub-Ttop dt {
     text-transform: uppercase; }
-  .sub-nav dt,
-  .sub-nav dd,
-  .sub-nav li {
+  .sub-Ttop dt,
+  .sub-Ttop dd,
+  .sub-Ttop li {
     float: left;
     margin-left: 1rem;
     margin-bottom: 0;
@@ -4352,28 +4352,28 @@ blockquote p {
     font-weight: normal;
     font-size: 0.875rem;
     color: #999999; }
-    .sub-nav dt a,
-    .sub-nav dd a,
-    .sub-nav li a {
+    .sub-Ttop dt a,
+    .sub-Ttop dd a,
+    .sub-Ttop li a {
       text-decoration: none;
       color: #999999;
       padding: 0.1875rem 1rem; }
-      .sub-nav dt a:hover,
-      .sub-nav dd a:hover,
-      .sub-nav li a:hover {
+      .sub-Ttop dt a:hover,
+      .sub-Ttop dd a:hover,
+      .sub-Ttop li a:hover {
         color: #737373; }
-    .sub-nav dt.active a,
-    .sub-nav dd.active a,
-    .sub-nav li.active a {
+    .sub-Ttop dt.active a,
+    .sub-Ttop dd.active a,
+    .sub-Ttop li.active a {
       border-radius: 3px;
       font-weight: normal;
       background: #008CBA;
       padding: 0.1875rem 1rem;
       cursor: default;
       color: #FFFFFF; }
-      .sub-nav dt.active a:hover,
-      .sub-nav dd.active a:hover,
-      .sub-nav li.active a:hover {
+      .sub-Ttop dt.active a:hover,
+      .sub-Ttop dd.active a:hover,
+      .sub-Ttop li.active a:hover {
         background: #0078a0; }
 
 /* Foundation Joyride */
