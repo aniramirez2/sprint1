@@ -1,20 +1,104 @@
-/* Background */
-.rsMinW,
-.rsMinW .rsOverflow,
-.rsMinW .rsSlide,
-.rsMinW .rsVideoFrameHolder,
-.rsMinW .rsThumbs {
-	/*background: #000;*/
-	color: #FFF;
-}
 
+	color: #FFF;
 
 /***************
 *
 *  1. Arrows
 *
 ****************/
+.sombrar {
+	width:660px;
+	height:12px;
+	background:url(../images/producto/sombra-f.png) center top no-repeat;
+	position:absolute;
+	margin:-40px 0px 0px 0px;
+}
+.bannerrecetas .s-arriba {
+	width:212px;
+	height:12px;
+	background:url(../images/recetas/sombra-v.png) no-repeat left top;
+	position:absolute;
+        z-index: 1;
+}
+.bannerrecetas .s-abajo {
+	width:660px;
+	height:12px;
+	float:left;
+	background:url(../images/recetas/sombra-v-abajo.png) no-repeat center top;
+	position:absolute;
+	margin-top:288px;
+        z-index: 1;
+}
+.wrapper {
+	width:auto;
+	height:auto;
+	margin:center;
+	position: relative;
+	z-index: 10;
+}
 
+.wrapper {
+	width:auto;
+	height:auto;
+	margin:0 auto;
+
+}
+.recetac {
+	width:auto;
+	float:left;
+ 	-webkit-border-radius: 0px 0px 10px 10px;
+	-moz-border-radius: 0px 0px 10px 10px;
+	border-radius: 0px 0px 10px 10px;
+}
+.recetac .recetaf {
+	width:auto;
+	padding: 0px 10px 2px 11px;
+}
+.recetac .recetaf .sombraf {
+	display:none;
+}
+.recetac .recetaf .receta {
+	width: 215px;
+	/*height:450px;*/
+	margin:0px 6px 15px 6px;
+	float:left;
+	border-width: thin;
+	border-style: solid;
+	border-color: #e1e1e1;
+	-webkit-border-radius: 0px 0px 5px 5px;
+	-moz-border-radius: 0px 0px 5px 5px;
+	border-radius: 0px 0px 5px 5px;
+	background: #fff;
+}
+.recetac .recetaf .receta .s {
+	display:none;
+}
+.recetac .recetaf .receta .barra {
+	width:213px;
+}
+.recetac .recetaf .receta .barracat {
+	width:213px;
+}
+.recetac .recetaf .receta .imagen {
+	width:213px;
+}
+.recetac .recetaf .receta .imagen img {
+	margin: -10px 0px 0px -54px;
+}
+
+.recetac .recetaf .receta .imagen .sombra {
+	width: 213px;
+}
+
+.recetac .recetaf .receta .descripcion {
+	font-size:15px;
+	height: 120px;
+	width: 179px;
+}
+.recetac {
+	float: none;
+	margin: 0 auto;
+}
 .rsMinW .rsArrow {
 	height: 34px;
 	width: 34px;
