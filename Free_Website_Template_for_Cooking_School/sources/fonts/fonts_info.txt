@@ -1,0 +1,4 @@
+List of Fonts used in template 
+
+PT Serif Caption	http://www.google.com/webfonts/specimen/PT+Serif+Caption
+

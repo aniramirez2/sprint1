@@ -4565,10 +4565,9 @@ blockquote p {
     color: #333333; }
 
 .off-canvas-wrap {
-  -webkit-backface-visibility: hidden;
-  position: relative;
+    position: relative;
   width: 100%;
-  overflow: hidden; }
+  z-index: 900; }
   .off-canvas-wrap.move-right, .off-canvas-wrap.move-left {
     min-height: 100%;
     -webkit-overflow-scrolling: touch; }
@@ -4582,8 +4581,7 @@ blockquote p {
   -o-transition: -o-transform 500ms ease;
   transition: transform 500ms ease; }
   .inner-wrap:before, .inner-wrap:after {
-    content: " ";
-    display: table; }
+   display: table; }
   .inner-wrap:after {
     clear: both; }
 
@@ -4712,7 +4710,10 @@ blockquote p {
 ul.off-canvas-list {
   list-style-type: none;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  z-index: 900;
+
+}
   ul.off-canvas-list li label {
     display: block;
     padding: 0.3rem 0.9375rem;
